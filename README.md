@@ -1,6 +1,6 @@
 # Candidate Assessment Repository
 
-Welcome to the candidate assessment repository. Follow these steps to complete your task and submit your work.
+Welcome to the candidate assessment repository. Follow these steps to complete your task and submit your work. Description of the task you find in [task_description.md](task_description.md)
 
 ## Getting Started
 
