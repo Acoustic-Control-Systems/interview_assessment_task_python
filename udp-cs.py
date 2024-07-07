@@ -16,13 +16,13 @@ class DataGenerator:
     def generate_json_meta(self):
         data = {
             "timestamp": time.time(),
-            "description": "This is some meta-information"
+            "description": "Meta-information. I am Bharath."
         }
         return json.dumps(data).encode('utf-8')
 
     def generate_binary_data(self):
-        t = np.linspace(0, 1, 500)
-        sine_wave = np.sin(2 * np.pi * 50 * t)  # 50 Hz sine wave
+        t = np.linspace(0, 1, 1000)
+        sine_wave = np.sin(2 * np.pi * 100 * t)  # 100 Hz sine wave
         modulated_wave = sine_wave * np.exp(-5 * t)  # Exponential decay modulation
         return modulated_wave.astype(np.float32).tobytes()
 
